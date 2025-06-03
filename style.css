@@ -1,0 +1,98 @@
+  body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-image: url("background.webp");
+      background-size: cover;
+      color: #c4630e;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem 1rem;
+      min-height: 100vh;
+      margin: 0;
+  }
+
+  header {
+      font-size: 2.2rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      color: #6f4505;
+      text-align: center;
+  }
+
+  main {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      padding: 1.8rem 2rem;
+      max-width: 400px;
+      width: 100%;
+  }
+
+  label {
+      display: block;
+      margin-bottom: 0.3rem;
+      font-weight: 600;
+  }
+
+  input[type=number],
+  select {
+      width: 100%;
+      padding: 0.5rem 0.6rem;
+      border: 1.8px solid #ffc20a;
+      border-radius: 6px;
+      font-size: 1rem;
+      margin-bottom: 1rem;
+      outline-offset: 2px;
+      outline-color: #9c7c09;
+      box-sizing: border-box;
+  }
+
+  input[type=number]:focus,
+  select:focus {
+      outline: 2px solid #c9560f;
+      border-color: #4d2100;
+  }
+
+  button {
+      width: 100%;
+      padding: 0.7rem;
+      font-size: 1.2rem;
+      background-color: #e5991e;
+      border: none;
+      border-radius: 8px;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+      background-color: #004d40;
+  }
+
+  button:active {
+      transform: translateY(1px);
+  }
+
+  .result {
+      margin-top: 1.2rem;
+      padding: 1rem;
+      border-radius: 8px;
+      background: #ffeddc;
+      font-size: 1.1rem;
+      min-height: 70px;
+      white-space: pre-wrap;
+      line-height: 1.4;
+  }
+
+  .error {
+      background: #ffebee;
+      color: #c62828;
+      border: 1px solid #ef5350;
+  }
+
+  .success {
+      background: #e8f5e8;
+      color: #db8916;
+      border: 1px solid #cb880b;
+  }
